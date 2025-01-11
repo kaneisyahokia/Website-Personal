@@ -1,0 +1,14 @@
+DesktopResponsive={"1009":{
+"pageLayer":{"w":1920,"h":1080,"bgColor":"#ffffff"}
+,
+"text665":{"x":140,"y":200,"w":1640,"h":37,"txtscale":100,"bOffBottom":0}
+,
+"entry666":{"x":140,"y":251,"w":160,"h":25,"fsize":16,"bOffBottom":0}
+,
+"RCDResetQuestion":function(){
+try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
+}
+,
+"RCDResultResize":function(){}
+,"preload":[]
+}}

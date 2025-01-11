@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="18.2" lectoraproductversion="18.2.3" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="standard" savedfromdemo="true">
+<currentid>814</currentid>
+<currtheme></currtheme>
+<language>en</language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="78" resourcetype="image">
+<name>std_qt_ok_normal.png</name>
+<relativelink>images\std_qt_ok_normal.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="79" resourcetype="image">
+<name>std_qt_ok_clicked.png</name>
+<relativelink>images\std_qt_ok_clicked.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="80" resourcetype="image">
+<name>std_qt_ok_over.png</name>
+<relativelink>images\std_qt_ok_over.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="61" referenceobjectid="60">
+<name>Question_0001</name>
+<initialvalue></initialvalue>
+<lastupdated>0</lastupdated>
+<reserved_variable />
+<automatic_variable />
+<question_variable />
+</variable>
+<variable id="72" referenceobjectid="60">
+<name>TriQA_60</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+<varnotvisible>1</varnotvisible>
+<reserved_variable />
+<persist_variable />
+</variable>
+<variable id="246" referenceobjectid="243">
+<name>TriQA_243</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+<varnotvisible>1</varnotvisible>
+<reserved_variable />
+<persist_variable />
+</variable>
+<variable id="664" referenceobjectid="663">
+<name>Question_0002</name>
+<initialvalue></initialvalue>
+<lastupdated>0</lastupdated>
+<reserved_variable />
+<automatic_variable />
+<question_variable />
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center" respdesign="true">
+<name>Title 1</name>
+<lastupdated>1736558419</lastupdated>
+<respprops>
+<phoneportrait>
+<title pubthisview="true" />
+</phoneportrait>
+<tabletlandscape>
+<title pubthisview="true" />
+</tabletlandscape>
+<phonelandscape>
+<title pubthisview="true" />
+</phonelandscape>
+<tabletportrait>
+<title pubthisview="true" />
+</tabletportrait>
+</respprops>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1920</width>
+<height>1080</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<page id="2" parent="1">
+<name>Page 1</name>
+<lastupdated>1736558438</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objquestion id="60" parent="2" questiontype="numberentry" idtext="62" idvar="61" identry="63" idVarAttempts="72" anyanswer="true">
+<name>Question 1</name>
+<lastupdated>1736558438</lastupdated>
+<questiontext>0+1</questiontext>
+<maxlength>1</maxlength>
+<actionitem actiontaken="displaymsg" target="standardmsg">
+<targetstring>keeren</targetstring>
+<browserWnd />
+</actionitem>
+<actionitemincorrect actiontaken="displaymsg" target="standardmsg">
+<targetstring>gapapa coba lagi</targetstring>
+<browserWnd />
+</actionitemincorrect>
+<feedbackmethodcorrect>3</feedbackmethodcorrect>
+<feedbackmethodincorrect>3</feedbackmethodincorrect>
+<maxallowedattempts>3</maxallowedattempts>
+<methodfbformaxattempts>3</methodfbformaxattempts>
+<actitemfbformaxattempts actiontaken="displaymsg" target="standardmsg">
+<targetstring>Hayoo lain kali diperhatikan lagi.</targetstring>
+<browserWnd />
+</actitemfbformaxattempts>
+<objchoice relationshiptype="equalto">
+<choicetext>1</choicetext>
+<choicetextright></choicetextright>
+</objchoice>
+<text id="62" parent="60" ontop="false" fixed="false" proportional="false" labelobject="63" defaulttext="none">
+<name>Question Text</name>
+<lastupdated>1736558438</lastupdated>
+<respprops>
+<phoneportrait>
+<text>
+<possize>
+<size>
+<cx>410</cx>
+<cy>37</cy>
+</size>
+<point>
+<x>35</x>
+<y>50</y>
+</point>
+</possize>
+</text>
+</phoneportrait>
+</respprops>
+<possize>
+<point>
+<x>140</x>
+<y>200</y>
+</point>
+<size>
+<cx>1640</cx>
+<cy>37</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text62Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text62Font1&quot;  &gt;0+1&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang14345\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf0\cb1\ulc0 Normal;}{\cs1\cf0\cb1\ulc0 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\lang1033\hich\f2\loch\f2 0+1\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>﻿0+1</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Inherit</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<entryfield id="63" parent="60" ontop="false" fixed="false" proportional="false" numonly="true">
+<name>Entry field</name>
+<lastupdated>1736557474</lastupdated>
+<respprops>
+<phoneportrait>
+<entryfield>
+<possize>
+<point>
+<x>35</x>
+<y>103</y>
+</point>
+</possize>
+</entryfield>
+</phoneportrait>
+</respprops>
+<possize>
+<point>
+<x>126</x>
+<y>249</y>
+</point>
+<size>
+<cx>100</cx>
+<cy>79</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<numchars>1</numchars>
+<default></default>
+<bgcolor>FFFFFF</bgcolor>
+</entryfield>
+</objquestion>
+<textbutton id="73" parent="2" resource="78" ontop="true" fixed="false" proportional="false" posfromright="true" initdisabled="false">
+<name>Submit</name>
+<lastupdated>1736557453</lastupdated>
+<possize>
+<point>
+<x>1885</x>
+<y>269</y>
+</point>
+<size>
+<cx>60</cx>
+<cy>40</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="17" gradientangle="315" bevelheight="0" color="transparent" />
+<action id="81" parent="73" on="mouseclick">
+<name>OnMClkProcQ</name>
+<lastupdated>0</lastupdated>
+<actionitem actiontaken="processquestion" target="object" targetobject="60">
+<browserWnd />
+</actionitem>
+</action>
+<type>20000</type>
+<overstate id="73" resource="80" ontop="false" fixed="false" proportional="true">
+<name>Submit</name>
+<lastupdated>0</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>0</y>
+</point>
+<size>
+<cx>-1</cx>
+<cy>-1</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>0</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="17" gradientangle="315" bevelheight="0" color="transparent" />
+</overstate>
+<downstate id="73" resource="79" ontop="false" fixed="false" proportional="true">
+<name>Submit</name>
+<lastupdated>0</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>0</y>
+</point>
+<size>
+<cx>-1</cx>
+<cy>-1</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>0</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="17" gradientangle="315" bevelheight="0" color="transparent" />
+</downstate>
+</textbutton>
+<textbutton id="685" parent="2" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Button 2</name>
+<lastupdated>1736558234</lastupdated>
+<possize>
+<point>
+<x>131</x>
+<y>467</y>
+</point>
+<size>
+<cx>206</cx>
+<cy>86</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>Click Here</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="50" />
+</handledata>
+<shapefillinfo fillstyle="2" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.500000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="741" parent="685" on="mouseclick">
+<name>OnMClkGoTo</name>
+<lastupdated>1736558196</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+</page>
+<page id="659" parent="1">
+<name>Page 2</name>
+<lastupdated>1736558419</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objquestion id="663" parent="659" questiontype="numberentry" idtext="665" idvar="664" identry="666" anyanswer="true" immediatefeedback="true">
+<name>Question 2</name>
+<lastupdated>1736558366</lastupdated>
+<questiontext>berapa 1+1</questiontext>
+<maxlength>1</maxlength>
+<actionitem actiontaken="displaymsg" target="standardmsg">
+<targetstring>keren pintar</targetstring>
+<browserWnd />
+</actionitem>
+<actionitemincorrect actiontaken="displaymsg" target="standardmsg">
+<targetstring>belajar lagi</targetstring>
+<browserWnd />
+</actionitemincorrect>
+<feedbackmethodcorrect>3</feedbackmethodcorrect>
+<feedbackmethodincorrect>3</feedbackmethodincorrect>
+<objchoice relationshiptype="equalto">
+<choicetext>2</choicetext>
+<choicetextright></choicetextright>
+</objchoice>
+<text id="665" parent="663" ontop="false" fixed="false" proportional="false" labelobject="666" defaulttext="none">
+<name>Question Text</name>
+<lastupdated>1736558366</lastupdated>
+<respprops>
+<phoneportrait>
+<text>
+<possize>
+<size>
+<cx>410</cx>
+<cy>37</cy>
+</size>
+<point>
+<x>35</x>
+<y>50</y>
+</point>
+</possize>
+</text>
+</phoneportrait>
+</respprops>
+<possize>
+<point>
+<x>140</x>
+<y>200</y>
+</point>
+<size>
+<cx>1640</cx>
+<cy>37</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text665Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text665Font1&quot;  &gt;berapa 1+1&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang14345\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf0\cb1\ulc0 Normal;}{\cs1\cf0\cb1\ulc0 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\lang1033\hich\f2\loch\f2 berapa 1+1\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>﻿berapa 1+1</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Inherit</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<entryfield id="666" parent="663" ontop="false" fixed="false" proportional="false" numonly="true">
+<name>Entry field</name>
+<lastupdated>1736558286</lastupdated>
+<respprops>
+<phoneportrait>
+<entryfield>
+<possize>
+<point>
+<x>35</x>
+<y>103</y>
+</point>
+</possize>
+</entryfield>
+</phoneportrait>
+</respprops>
+<possize>
+<point>
+<x>140</x>
+<y>253</y>
+</point>
+<size>
+<cx>160</cx>
+<cy>25</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<numchars>1</numchars>
+<default></default>
+<bgcolor>FFFFFF</bgcolor>
+</entryfield>
+</objquestion>
+</page>
+<page id="236" parent="1">
+<name>Page 2</name>
+<lastupdated>1736558419</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+</page>
+</title>
+</objectdata>
+</lectoratitle>

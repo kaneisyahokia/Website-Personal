@@ -1,0 +1,10 @@
+DesktopResponsive={"1009":{
+"pageLayer":{"w":1920,"h":1080,"bgColor":"#ffffff"}
+,
+"RCDResetQuestion":function(){
+try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
+}
+,
+"RCDResultResize":function(){}
+,"preload":[]
+}}
